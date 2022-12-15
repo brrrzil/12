@@ -1,0 +1,546 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671038534164688, "dur":1638, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038534166332, "dur":82, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671038534166443, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671038534166460, "dur":223, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671038534166713, "dur":613, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038534167326, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542633912, "dur":124, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634036, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634044, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634047, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634052, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634054, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634058, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634060, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634079, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634095, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542634125, "dur":2099, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671038534167099, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534167336, "dur":3874, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534171219, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671038534171226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534172160, "dur":278, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671038534172443, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671038534172466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534173078, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671038534175137, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671038534175258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534175461, "dur":45657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671038534221160, "dur":41616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1671038534262790, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534262818, "dur":50749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1671038534313737, "dur":6242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671038534320013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534320161, "dur":31959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671038534352175, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671038534352338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534352712, "dur":18473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671038534371295, "dur":30513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671038534401820, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534401845, "dur":20388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671038534422267, "dur":45994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534468270, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534468771, "dur":84482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534553393, "dur":1621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12.exe" }}
+,{ "pid":12345, "tid":1, "ts":1671038534555023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534555040, "dur":62112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12.exe" }}
+,{ "pid":12345, "tid":1, "ts":1671038534617211, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1671038534617629, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534618268, "dur":160481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1671038534778887, "dur":29646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534808544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534808565, "dur":86586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534895179, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534895778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534895784, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534897120, "dur":9263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534906386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534906392, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534908044, "dur":1246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038534909311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038534909317, "dur":148412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535057791, "dur":12999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535070803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535070826, "dur":17229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535088108, "dur":1115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535089234, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535089270, "dur":3666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535092987, "dur":23131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535116131, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535116156, "dur":69121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535185329, "dur":8137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535193472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535193484, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535195205, "dur":674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535195884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535195893, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535197240, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535197888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535197897, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535198982, "dur":290660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535489656, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535489680, "dur":53373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535543071, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535543776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535543781, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535544618, "dur":9478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535554099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535554106, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535555381, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535555831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535555838, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535556687, "dur":11198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535567889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535567896, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535569280, "dur":67443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535636733, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535636945, "dur":11437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535648434, "dur":24722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535673167, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535673188, "dur":3660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535676899, "dur":13257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535690168, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038535690189, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038535694163, "dur":641258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038536335425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038536335434, "dur":331055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038536666504, "dur":168154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038536834662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038536834730, "dur":664630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537499378, "dur":216370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537715753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038537715762, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537716638, "dur":26555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537743197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038537743205, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537743970, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537744714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038537744719, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537745339, "dur":24722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537770065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038537770074, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537771230, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537771842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038537771852, "dur":7457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537779336, "dur":117182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537896522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038537896529, "dur":34047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038537930596, "dur":155142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538085749, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538085770, "dur":36796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538122617, "dur":270024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538392653, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538392675, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538395198, "dur":12300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538407510, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538407532, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538410060, "dur":8952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538419024, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538419045, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538422051, "dur":24114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538446228, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538446250, "dur":3026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538449323, "dur":61758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538511093, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538511116, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538515513, "dur":14002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538529518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538529524, "dur":8851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538538398, "dur":155977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538694389, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538694413, "dur":4334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538698798, "dur":14729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538713532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538713542, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538715152, "dur":102534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538817699, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538817723, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538820686, "dur":155202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538975892, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038538975909, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671038538977094, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1671038538977177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038539173454, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1671038539174882, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671038539174900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038539174907, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671038539176164, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671038539176185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038539176193, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671038539177748, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671038539177768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038539177776, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671038539180469, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671038539180489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038539180497, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671038539183761, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671038539183788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038539183799, "dur":49273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671038539233121, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671038539233160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038539233177, "dur":1211729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671038540444938, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671038540444961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038540444971, "dur":19172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671038540464194, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1671038540464234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038540464252, "dur":122262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1671038540586567, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671038540586607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038540586626, "dur":70231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671038540656912, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671038540656952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038540656970, "dur":46357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671038540703344, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1671038540703369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038540703375, "dur":61314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1671038540764742, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1671038540764786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038540764805, "dur":34935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1671038540799793, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1671038540800096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671038540800115, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1671038540803142, "dur":1830706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534167321, "dur":63, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534167385, "dur":4239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534171625, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671038534171774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534174161, "dur":42450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671038534216659, "dur":56961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1671038534273632, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534273657, "dur":40085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1671038534313897, "dur":6143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1671038534320043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534320274, "dur":31862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1671038534352188, "dur":42163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1671038534394363, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534394457, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1671038534397212, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1671038534397612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534397634, "dur":29774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1671038534427443, "dur":216896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534644351, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534644607, "dur":52280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534696939, "dur":105877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534802829, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534803477, "dur":91257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534894749, "dur":593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534895345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534895367, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534896546, "dur":9710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534906259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534906265, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534908007, "dur":1271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038534909281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038534909287, "dur":148422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535057776, "dur":13244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535071031, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038535071052, "dur":17294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535088397, "dur":20286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535108695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038535108716, "dur":9013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535117785, "dur":529810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535647606, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038535647628, "dur":5956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535653636, "dur":20070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535673718, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038535673739, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535677415, "dur":11960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535689386, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038535689408, "dur":4229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038535693699, "dur":641834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038536335536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038536335542, "dur":330929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038536666490, "dur":714427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038537380921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038537380930, "dur":426922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038537807907, "dur":70882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038537878797, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038537878809, "dur":51542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038537930375, "dur":150159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538080545, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538080565, "dur":40924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538121561, "dur":279108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538400680, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538400701, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538403960, "dur":38712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538442684, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538442706, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538445241, "dur":20659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538465911, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538465934, "dur":2733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538468716, "dur":21011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538489738, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538489759, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538493420, "dur":18573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538512004, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538512025, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538515912, "dur":13904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538529818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538529823, "dur":8814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538538650, "dur":176769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538715422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538715428, "dur":23629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538739079, "dur":108808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538847895, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538847922, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538849617, "dur":90154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538939777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038538939787, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038538940791, "dur":3685676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038542626478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671038542626500, "dur":7284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671038542633802, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1671038542633804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038534167209, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038534167363, "dur":4422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038534171785, "dur":41011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1671038534212798, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038534212814, "dur":100013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1671038534312992, "dur":1572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671038534314574, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038534315937, "dur":71159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671038534387228, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1671038534387595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038534387620, "dur":56957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1671038534444631, "dur":1457828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038535902467, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038535902481, "dur":473251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038536375771, "dur":124875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038536500659, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038536500684, "dur":165821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038536666541, "dur":667280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537333835, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038537333858, "dur":165447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537499327, "dur":100725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537600065, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038537600089, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537602740, "dur":3494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537606237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038537606243, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537607261, "dur":145764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537753027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038537753034, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537753807, "dur":18299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537772110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038537772120, "dur":7297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537779443, "dur":114261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537893708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038537893716, "dur":37656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038537931394, "dur":131776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538063249, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538063274, "dur":57761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538121091, "dur":7464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538128566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538128586, "dur":28838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538157439, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538157934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538157942, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538158661, "dur":237272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538395945, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538395966, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538399467, "dur":12073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538411553, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538411576, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538414246, "dur":2008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538416265, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538416288, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538418986, "dur":27873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538446870, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538446891, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538450404, "dur":61811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538512227, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538512249, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538516253, "dur":13523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538529779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538529785, "dur":8778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538538576, "dur":405250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538943843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538943851, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538945879, "dur":11715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538957600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538957611, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538958738, "dur":24193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Boxophobic.Utils.Scripts.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038538982936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038538982945, "dur":191739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Boxophobic.Utils.Scripts.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671038539174705, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1671038539174725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038539174803, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1671038539176113, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038539176130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038539176137, "dur":5420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038539181581, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038539181600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038539181608, "dur":51715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038539233373, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1671038539233649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038539233665, "dur":825784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1671038540059500, "dur":89154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1671038540148667, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540148689, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1671038540151781, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038540151829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540151847, "dur":45184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038540197048, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671038540197060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540197066, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671038540198007, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038540198018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540198023, "dur":88388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038540286464, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1671038540286503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540286521, "dur":198078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1671038540484651, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038540484709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540484728, "dur":18784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038540503564, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1671038540503604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540503622, "dur":83711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1671038540587382, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1671038540587420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540587437, "dur":116182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1671038540703632, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038540703644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540703648, "dur":61081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671038540764779, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671038540764825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540764842, "dur":33778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671038540798675, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1671038540798717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671038540798736, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1671038540802159, "dur":1831698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534167546, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534167547, "dur":3978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534171526, "dur":41252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1671038534212783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534213013, "dur":100604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1671038534313797, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1671038534314202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534315340, "dur":13076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1671038534328450, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671038534328569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534328575, "dur":41844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671038534370514, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1671038534370768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534371084, "dur":31548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1671038534402770, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1671038534403118, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534403140, "dur":48073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1671038534451271, "dur":331087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1671038534782370, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534782391, "dur":5057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1671038534787591, "dur":20418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038534808020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534808281, "dur":86445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038534894744, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038534895343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534895350, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038534896595, "dur":9654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038534906252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534906260, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038534907839, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038534908751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038534908757, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038534909480, "dur":177639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535087131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535087152, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535091332, "dur":5464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535096807, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535096995, "dur":13338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535110381, "dur":5946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535116359, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535116383, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535119806, "dur":387233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535507050, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535507071, "dur":36040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535543125, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535543773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535543780, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535544670, "dur":9087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535553761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535553769, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535554841, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535555277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535555283, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535556215, "dur":6520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535562738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535562757, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535563679, "dur":4468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535568150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535568156, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535569325, "dur":60732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535630068, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535630086, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535632273, "dur":26141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535658425, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535658447, "dur":2703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535661197, "dur":11578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535672787, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038535672809, "dur":51430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038535724300, "dur":611120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038536335425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038536335434, "dur":331203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038536666652, "dur":714570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537381225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038537381231, "dur":273734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537654992, "dur":19425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537674430, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038537674453, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537677114, "dur":7066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537684193, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038537684452, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537687409, "dur":76114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537763527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038537763535, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537765072, "dur":13853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537778931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038537778943, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537780319, "dur":107144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537887466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038537887473, "dur":43008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038537930504, "dur":140663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538071178, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038538071201, "dur":51486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538122738, "dur":5471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538128221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038538128243, "dur":29162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538157423, "dur":229371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538386808, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038538386832, "dur":5066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538391948, "dur":4211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538396171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038538396192, "dur":3594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538399837, "dur":18904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538418752, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038538418788, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538421889, "dur":274329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538696230, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038538696251, "dur":4239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538700507, "dur":269247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538969759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038538969767, "dur":5087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538974873, "dur":19788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038538994665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038538994674, "dur":180273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671038539174967, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1671038539174986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038539174993, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1671038539176613, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671038539176630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038539176636, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671038539178121, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671038539178142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038539178150, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671038539180237, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671038539180256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038539180265, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671038539181882, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671038539181902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038539181910, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671038539186138, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671038539186163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671038539186174, "dur":3439840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nal.HOCKEY-PALACE/Desktop/WildShip/12_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671038542626097, "dur":7750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671038542637841, "dur":1910, "ph":"X", "name": "ProfilerWriteOutput" }
+,
